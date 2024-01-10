@@ -1,5 +1,5 @@
 #!/usr/bin/node
-if (ProcessingInstruction.argv[2] === undefined)
+if (Process.argv[2] === undefined)
 {
     console.log('Missing number of occurrences');
 }
