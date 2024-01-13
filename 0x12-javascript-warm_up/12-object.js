@@ -1,4 +1,5 @@
-#!/usr/bin/node
+#!/usr/bin/ env node
+
 const myObject = {
     type: 'object',
     value: 12
