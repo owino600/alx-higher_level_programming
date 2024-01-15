@@ -2,10 +2,16 @@
 """
 Contains the class definition of a City
 """
-from model_state import Base
+from model_state import Base, State
 from sqlalchemy import Column, Integer, String, ForeignKey
-from sqlalchemy.ext.declarative import declarative_base
 
+"""City class
+    Attributes:
+        __tablename__ (str): The table name of the class
+        id (int): The id of the class
+        name (str): The name of the class
+        state_id (int): The state the city belongs to
+    """
 
 class City(Base):
     """
