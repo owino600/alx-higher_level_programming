@@ -11,5 +11,6 @@ if __name__ == "__main__":
     row = cus.fetchall()
     for row in rows:
         print(row)
-        cus.close()
-        db.close()
+        
+    cus.close()
+    db.close()
