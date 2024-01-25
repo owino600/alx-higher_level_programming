@@ -3,7 +3,7 @@
 #Send request to that URL
 #Disolay the size of the body of the response
 
-if [ $# -eq 0 ]; then
+if [ "$#" -eq 0 ]; then
     echo "Usage: $0 <URL>"
     exit 1
 fi
@@ -14,4 +14,4 @@ response=$(curl -s "$URL")
 
 #get the size of the response in bytes
 
-curl -s "response" | wc -c
+curl -s "$response" | wc -c
