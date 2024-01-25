@@ -6,7 +6,5 @@
 
 URL=$1
 response=$(curl -s "$URL")
-
 #get the size of the response in bytes
-
 curl -s "$response" | wc -c
