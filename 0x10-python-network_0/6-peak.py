@@ -2,6 +2,7 @@
 """ Module that finds a peak in in a list"""
 
 def find_peak(list_of_integers):
+    """ a function that finds a peak in a list of unsorted integers """
     list_ = list_of_integers
     # if no list of integers
     if list_ == []:
